@@ -1,8 +1,49 @@
+nav{
+  float: right;
+  margin-right: 25%;
+}
+ul{
+  height: 100%;
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: blue;
+  position: fixed;
+  overflow: auto;
+}
+li{
+  text-align: center;
+}
+li a{
+  display: block;
+  color:red;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #555;
+  color: yellow;
+}
+li a.active {
+background-color: #4CAF50;
+color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color:yellow;
+}
+
 h1 {
     color: blue;
     font-family: verdana;
     font-size: 300%;
 }
 body {
-    background-color: lightblue;
+     background: linear-gradient(to bottom right, red, yellow);
+}
+p{
+  color: yellow;
+  float:left;
+  width: 75%;
 }
