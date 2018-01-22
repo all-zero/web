@@ -8,10 +8,16 @@ body {
 
 header{
  grid-area: A;
+ justify-content: flex-start;
 }
 
 nav{
 grid-area: B;
+justify-content: flex-end;
+}
+
+nav ul{
+  float:left;
 }
 
 section .sidbar{
