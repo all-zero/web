@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  grid-template-areas:
+  "A B"
+  "C D"
+  "E E";
+}
+
+header{
+ grid-area: A;
+}
+
+nav{
+grid-area: B;
+}
+
+section .sidbar{
+  grid-area: C;
+}
+
+section .contents{
+  grid-area: D;
+}
+
+footer{
+  grid-area: E;
+}
